@@ -1,0 +1,12 @@
+# https://www.eriksmistad.no/getting-started-with-google-test-on-ubuntu/
+# CMakeLists.txt + tests.cc + whattotest.cc
+
+cmake_minimum_required(VERSION 2.6)
+ 
+# Locate GTest
+find_package(GTest REQUIRED)
+include_directories(${GTEST_INCLUDE_DIRS})
+ 
+# Link runTests with what we want to test and the GTest and pthread library
+add_executable(runTests  tests.cc)
+target_link_libraries(runTests ${GTEST_LIBRARIES} pthread)

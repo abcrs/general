@@ -1,0 +1,8 @@
+# Ignore the build directory.
+build
+
+# Ignore the .csv files
+*.csv
+
+# OSX automatically includes these, so ignore them as well.
+.DS_Store

@@ -1,0 +1,42 @@
+//Written by rosss001+poppe090
+
+int getAbilityScore(String abilityName);
+Best Case: O(1) - Hash finds value at first location, returns it
+Worst Case: O(n) - Hash table is filled at concurrent indices, must check each one until it finds the correct value, then retuns it
+
+void setAbiityScore(String abilityName, int abilityScore);
+Best Case: O(1) - Hash finds nothing at first location, adds new ability and sets the score
+Worst Case: O(n) - Hash table is filled at concurrent indices, must check each one until it finds the an empty location, then adds new ability and sets the score
+
+int getAbilityModifier(String abilityName);
+Best Case: O(1) - Hash finds value at first location, returns it
+Worst Case: O(n) - Hash table is filled at concurrent indices, must check each one until it finds the correct value, then retuns it
+
+boolean checkAbility(String abilityName, int difficulty);
+Best Case: O(1) - Hash finds value at first location, returns success or failure
+Worst Case: O(n) - Hash table is filled at concurrent indices, must check each one until it finds the correct value, then checks for success or failure
+
+
+void addSkill(String skillName, String relatedAbility, int skillRanks);
+Best Case: O(1) - Hash finds nothing at first location, adds skill and information
+Worst Case: O(n) - Hash table is filled at concurrent indices, must check each one until it finds the an empty space, then adds skill and information
+
+String getRelatedAbility(String skillName);
+Best Case: O(1) - Hash finds value at first location, returns it
+Worst Case: O(n) - Hash table is filled at concurrent indices, must check each one until it finds the correct value, then retuns it
+
+int getSkillRanks(String skillName);
+Best Case: O(1) - Hash finds value at first location, returns it
+Worst Case: O(n) - Hash table is filled at concurrent indices, must check each one until it finds the correct value, then retuns it
+
+void setSkillRanks(String skillName, int skillRanks);
+Best Case: O(1) - Hash finds value at first location, updates skill ranks
+Worst Case: O(n) - Hash table is filled at concurrent indices, must check each one until it finds the correct value, then updates skill ranks
+
+int getSkillModifier(String skillName);
+Best Case: O(1) - Hash finds value at first location, returns it
+Worst Case: O(n) - Hash table is filled at concurrent indices, must check each one until it finds the correct value, then retuns it
+
+boolean checkSkill(String skillName, int difficulty);
+Best Case: O(1) - Hash finds value at first location, returns success or failure
+Worst Case: O(n) - Hash table is filled at concurrent indices, must check each one until it finds the correct value, then does the check and returns success or failure

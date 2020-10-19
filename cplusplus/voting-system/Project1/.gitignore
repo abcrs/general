@@ -1,0 +1,18 @@
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+*.o
+*.out
+*.a
+
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+testing/file_data_unittest

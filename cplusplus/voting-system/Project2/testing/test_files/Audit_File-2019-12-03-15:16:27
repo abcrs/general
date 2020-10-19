@@ -1,0 +1,43 @@
+Audit_File-2019-12-03-15:16:27 Election Details
+
+Type of Election: CPL
+Number of Parties in Election: 4
+Number of Seats Available: 4
+Number of Ballots Submitted: 16
+Number of Candidates in Election: 10
+Number of votes required to win a seat before remainder: 4
+
+	Party Icon:		D
+	Party Votes:	3
+	Seats Won:		1
+Random Seed used for ties: 0
+Rank: 1	|| Candidate:      Pike	|| Winner!
+Rank: 2	|| Candidate:    Foster
+Rank: 3	|| Candidate:     Floyd
+
+
+	Party Icon:		R
+	Party Votes:	8
+	Seats Won:		2
+Random Seed used for ties: 0
+Rank: 1	|| Candidate:    Deutsch	|| Winner!
+Rank: 2	|| Candidate:       Wong	|| Winner!
+Rank: 3	|| Candidate:    Walters
+
+
+	Party Icon:		G
+	Party Votes:	4
+	Seats Won:		1
+Random Seed used for ties: 0
+Rank: 1	|| Candidate:    Jones	|| Winner!
+Rank: 2	|| Candidate:    Smith
+Rank: 3	|| Candidate:    Lewis
+
+
+	Party Icon:		I
+	Party Votes:	1
+	Seats Won:		0
+Random Seed used for ties: 0
+Rank: 1	|| Candidate:    Perez
+
+
